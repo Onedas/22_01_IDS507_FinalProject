@@ -3,8 +3,8 @@
 ## [Subject] 
 
 ## Data :
- - Weather dataset : [here](https://data.kma.go.kr/climate/RankState/selectRankStatisticsDivisionList.do?pgmNo=179)
- - Product retail dataset : [here](https://kosis.kr/)
+ - Weather dataset is from [here](https://data.kma.go.kr/climate/RankState/selectRankStatisticsDivisionList.do?pgmNo=179)
+ - Product retail dataset is from [here](https://kosis.kr/)
 
 ---
 ## Pre-requisites
