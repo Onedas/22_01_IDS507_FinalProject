@@ -43,8 +43,11 @@ def add_enter(text):
 if __name__ == '__main__':
     data_dir = '../data'
     for file_name in ['Humidity', 'Precipitation', 'Sunshine', 'Temperatures', 'Wind']:
-        preprocess_data(f'{data_dir}/Original/{file_name}.csv', f'{data_dir}/{file_name}.csv', [remove_tap,
-                                                                                                remove_space,
-                                                                                                remove_symbol,
-                                                                                                add_enter]
-                        )
+
+        preprocess_data(f'{data_dir}/Original/montly/{file_name}.csv',
+                        f'{data_dir}/montly/{file_name}.csv',
+                        [remove_tap, remove_space, remove_symbol, add_enter])
+
+        preprocess_data(f'{data_dir}/Original/daily/{file_name}.csv',
+                        f'{data_dir}/daily/{file_name}.csv',
+                        [remove_tap, remove_space, remove_symbol, add_enter])
