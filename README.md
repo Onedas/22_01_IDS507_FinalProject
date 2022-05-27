@@ -8,9 +8,15 @@
 
 ---
 ## Pre-requisites
- - python3 
- - anaconda
+ - python3
+ 
 
 ## How to start
 
+- **Requirements**
+```
+pip install tensorflow==2.6.0
+pip install -U scikit-learn
+pip install pandas, matplotlib, seaborn
+```
 TBU...
