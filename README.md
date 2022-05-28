@@ -15,7 +15,7 @@
 
 - **Requirements**
 ```
-pip install tensorflow==2.6.0
+conda install pytorch torchvision torchaudio cudatoolkit=11.3 -c pytorch
 pip install -U scikit-learn
 pip install pandas, matplotlib, seaborn
 ```
